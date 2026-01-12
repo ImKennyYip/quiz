@@ -1131,10 +1131,10 @@ function setQuestion() {
     option2.disabled = false;
     option3.disabled = false;
 
-    option0.style.background = "grey";
-    option1.style.background = "grey";
-    option2.style.background = "grey";
-    option3.style.background = "grey";
+    option0.style.backgroundColor = "grey";
+    option1.style.backgroundColor = "grey";
+    option2.style.backgroundColor = "grey";
+    option3.style.backgroundColor = "grey";
 
     nextQuestion.hidden = true;
 }
@@ -1146,10 +1146,10 @@ function selectOption() {
     option3.disabled = true;
 
     if (this.innerText == answer) {
-        this.style.background = "green";
+        this.style.backgroundColor = "green";
     }
     else {
-        this.style.background = "red";
+        this.style.backgroundColor = "red";
     }
 
     nextQuestion.hidden = false;
@@ -1157,4 +1157,5 @@ function selectOption() {
 
 function randomIndex(index) {
     return Math.floor(Math.random() * index);
+
 }
