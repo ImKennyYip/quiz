@@ -4,6 +4,7 @@ body {
 
 #flag-image {
     width: 280px;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -28,3 +29,4 @@ body {
 #quiz-container button:hover {
     background-color: lightgray;
 }
+
