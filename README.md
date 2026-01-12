@@ -1,5 +1,5 @@
 # [Flag Quiz](https://youtu.be/NgZx8UBinqI)
-- Coding Tutorial: [https://youtu.be/NgZx8UBinqI)
+- Coding Tutorial: [https://youtu.be/NgZx8UBinqI](https://youtu.be/NgZx8UBinqI)
 - Demo: https://imkennyyip.github.io/quiz/
 
 In this tutorial, we go over how to create a quiz app in javascript html and css. This tutorial will cover how to randomly select a question to populate onto the web page, process button clicks to answer questions, and update the page to inform the user if the answer was correct or not.
